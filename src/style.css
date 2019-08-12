@@ -1,0 +1,30 @@
+#header {
+  text-align: center;
+  background: bisque;
+  padding: 20px;
+  clear: both;
+  border-bottom: 3px solid gray;
+}
+#header h1 {
+  font-size: 40px;
+}
+#monsters {
+  display: none;
+}
+#combatArea {
+  display: flex;
+  align-items: center;
+}
+#player,
+#monster {
+  padding: 20px 40px;
+  text-align: center;
+  flex-grow: 2;
+}
+#fight {
+  flex-grow: 1;
+}
+label {
+  display: inline-block;
+  min-width: 100px;
+}
